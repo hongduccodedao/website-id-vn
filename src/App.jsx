@@ -24,7 +24,7 @@ const App = () => {
   return (
     <Box sx={{
       maxHeight: '100vh',
-      boxSizing: 'border-box',
+      minHeight: '100vh',
     }}>
       <Box
         sx={{
@@ -34,8 +34,8 @@ const App = () => {
           justifyContent: "center",
           height: "100%",
           backgroundImage: `url(${backGround})`,
+          backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          backgroundSize: "100% 100%",
           overflow: "hidden",
         }}
       >
